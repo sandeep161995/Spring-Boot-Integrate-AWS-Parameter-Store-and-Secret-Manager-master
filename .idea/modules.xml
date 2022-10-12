@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Boot-Integrate-AWS-Parameter-Store-and-Secret-Manager-master.iml" filepath="$PROJECT_DIR$/.idea/Spring-Boot-Integrate-AWS-Parameter-Store-and-Secret-Manager-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-Integrate-AWS-Parameter-Store-and-Secret-Manager-master/demo.iml" filepath="$PROJECT_DIR$/Spring-Boot-Integrate-AWS-Parameter-Store-and-Secret-Manager-master/demo.iml" />
+    </modules>
+  </component>
+</project>
