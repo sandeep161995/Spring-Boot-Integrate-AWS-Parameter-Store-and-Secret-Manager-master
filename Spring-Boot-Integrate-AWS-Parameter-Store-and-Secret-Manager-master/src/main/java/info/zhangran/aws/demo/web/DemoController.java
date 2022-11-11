@@ -13,11 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class DemoController {
 
-  @Value("${dynamodb.access.key}")
-  private String dynamodbAccessKey;
-
-  @Value("${exploreparamstore.device.token}")
-  private String deviceToken;
 
 
   @Value("${test1}")
@@ -31,7 +26,6 @@ public class DemoController {
 
   @GetMapping("/parameter")
   public ResponseEntity<String> getParam() {
-    log.info("Parameter Store DyamoDB Access Key {}", dynamodbAccessKey);
     log.info("Parameter Store Device Token {}", deviceToken);
     log.info("Secret Manager test1's value {}", secretManagerTest1);
     log.info("Secret Manager test2's value {}", secretManagerTest2);
